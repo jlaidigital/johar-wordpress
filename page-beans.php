@@ -8,22 +8,45 @@
 <!--     First Row begin-->        
         <div class="rowBeans">
               <div class="triple">
-                <img src="" alt="">
+              <?php // Start the loop ?>
+                <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+
+                  <h2><?php the_title(); ?></h2>
+                  <?php the_content(); ?>
+
+                <?php endwhile; // end the loop?>
+
+              <!--   <img src="" alt="">
                 <h3 class="beansTitle">Beans Title</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p> -->
+              </div>
+              <div class="triple">
+                <?php // Start the loop ?>
+                  <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+
+                    <h2><?php the_title(); ?></h2>
+                    <?php the_content(); ?>
+
+                  <?php endwhile; // end the loop?>
+
+             
+              </div>
+              <div class="triple">
+                <?php // Start the loop ?>
+                  <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+
+                    <h2><?php the_title(); ?></h2>
+                    <?php the_content(); ?>
+
+                  <?php endwhile; // end the loop?>
+
               </div>
         </div>
 
 
 
 
-      <?php // Start the loop ?>
-      <?php if ( the_content() ) while ( the_content() ) : the_content(); ?>
-
-        <h2><//?php the_title(); ?></h2>
-        <?php the_content(); ?>
-
-      <?php endwhile; // end the loop?>
+      
     </div> <!-- /,content -->
 
     <//?php get_sidebar(); ?>
