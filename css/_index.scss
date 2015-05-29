@@ -1,0 +1,35 @@
+.quarter {
+	width:20%;
+	background-color: black;
+	margin: 2.5%;
+	float: left;
+	text-align: center;
+	padding:2%;
+}
+
+.leftTwin, .rightTwin {
+	width:50%;
+	background-color: green;
+	display: block;
+	float:left;
+}
+
+.rightTwin {
+	background-color:lightGreen;
+}
+
+.beansButton {
+	border-radius: 25px;
+	border: none;
+	padding:6%;
+	text-transform: uppercase;
+}
+
+.specialMenu {
+	background-color: lightGrey;
+	width: 100%;
+	text-align: center;
+	margin-top: 2%;
+	display:block;
+	float:left;
+}
