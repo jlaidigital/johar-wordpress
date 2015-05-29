@@ -40,13 +40,11 @@
 <!-- 	middle giant pictures-->    
 	<div class="twins">
     	<div class="leftTwin">
-				sdfdsfsddsf
-<!--     		<img src="<?php //bloginfo('template_directory') ?>/img/coffee_by_bed.jpg" alt="">
- -->    	</div>
+     		<img src="<?php bloginfo('template_directory') ?>/img/coffee_by_bed.jpg" alt="">
+    	</div>
 <!-- right twin start-->    	
  		<div class="rightTwin">
- 		sdfdsfsddsf
-    		<img src="" alt="">
+     		<img src="<?php bloginfo('template_directory') ?>/img/Unsplash-Coffee-Cup.jpg" alt="">
     	</div>
     </div>
 
