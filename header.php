@@ -35,30 +35,32 @@
 <!-- </header> -->
 
               <!-- Nav -->
-      <div class="navFull">
-          <div class="navLeft">
+      <div class="navFull clearfix">
+       
 
-              <?php wp_nav_menu(array(
-                  'container' => 'nav',
-                  'container_id'=> 'nav',
-                  'theme_location'=>'primary'
-                  )); ?>
+          <div class="navLeft">
+          <h1><a href="<?php echo home_url(); ?>" id="logo"><?php bloginfo('name'); ?></a></h1>
+             
               <!-- nav left -->  
           </div>
 
               <!-- Logo -->
-          <div class="navMiddle">
-            <h1><a href="<?php echo home_url(); ?>" id="logo"><?php bloginfo('name'); ?></a></h1>
+  
+            
           </div>
               <!-- nav right -->
           <div class="navRight">
-          
+          <?php wp_nav_menu(array(
+                  'container' => 'nav',
+                  'container_id'=> 'nav',
+                  'theme_location'=>'primary'
+                  )); ?>
           </div>
       </div>
               <!-- nav end -->
 
               <div class="banner">
-                <img src="<?php bloginfo('template_directory') ?>/img/beansHead.jpg" alt="">
+                <img class="heroImage" src="<?php bloginfo('template_directory') ?>/img/beansHead.jpg" alt="">
               
               </div>
 
