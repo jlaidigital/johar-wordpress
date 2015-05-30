@@ -129,4 +129,76 @@ ul i:hover{
 
 //the end!//
 
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+  #footer
+  {
+    margin-bottom: 0;
+    text-shadow: -1px -1px 0 rgba(0,0,0,1);
+    position: relative;
+    z-index: 2;
+  }
+
+    #footer h2
+    {
+      font-size: 1.35em;
+      color: #fff;
+    }
+
+    #footer strong
+    {
+      color: #fff;
+    }
+
+    #footer a
+    {
+      color: #999;
+    }
+
+    #footer ul.style2 li
+    {
+      border-top: solid 1px;
+      border-color: #444;
+      border-color: rgba(255,255,255,0.075);
+    }
+
+      #footer ul.style2 li:first-child
+      {
+        border-top: 0;
+      }
+
+      #footer ul.style2 li a
+      {
+        text-decoration: none;
+      }
+
+    #footer .button-alt
+    {
+      box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px #a0a0a0, 0px 4px 6px 0px rgba(0,0,0,0.025);
+    }
+
+    #footer dl.contact dt
+    {
+      color: #ddd;
+    }
+
+  #copyright
+  {
+    border-top: solid 1px;
+    border-color: #444;
+    border-color: rgba(255,255,255,0.075);
+    text-align: center;
+    margin-top: 2em;
+    padding: 3em 0 4em 0;
+    color: #555;
+  }
+
+    #copyright a
+    {
+      color: #666;
+    }
+
+
 

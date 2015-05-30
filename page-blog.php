@@ -1,3 +1,7 @@
+
+
+
+
 <?php //index.php is the last resort template, if no other templates match ?>
 <?php get_header(); ?>
 
@@ -65,3 +69,13 @@
 </div> <!-- /.main -->
 
 <?php get_footer(); ?>
+
+
+
+
+
+
+<!-- Delete here -->
+
+     
+   
