@@ -19,7 +19,6 @@
 <body <?php body_class(); ?>>
 
 <!-- <header>
-  <div class="container">
     <h1>
       <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
         <?php bloginfo( 'name' ); ?>
@@ -34,20 +33,21 @@
   </div> <!-- /.container -->
 <!-- </header> -->
 
-              <!-- Nav -->
+<div class="wrapper">
+  <div class="container">
+     <!-- Nav -->
       <div class="navFull clearfix">
        
-
-          <div class="navLeft">
-          <h1><a href="<?php echo home_url(); ?>" id="logo"><?php bloginfo('name'); ?></a></h1>
-             
+        <div class="navLeft">
+              <h1><a href="<?php echo home_url(); ?>" id="logo"><?php bloginfo('name'); ?></a></h1>
+             <!-- <div class="overlay">
+                <h1>Johar & Co.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <button>See Menu</button>
+              </div> -->
               <!-- nav left -->  
           </div>
 
-              <!-- Logo -->
-  
-            
-          </div>
               <!-- nav right -->
           <div class="navRight">
           <?php wp_nav_menu(array(
@@ -55,20 +55,21 @@
                   'container_id'=> 'nav',
                   'theme_location'=>'primary'
                   )); ?>
-          </div>
-      </div>
+          </div>      
+        </div>
+    </div>
+  </div>
+  <div class="brownSection">
+        <div class="companyInfo">
+            <h2>Company Info</h2>
+<!--     <img class="heroImage" src="<?php bloginfo('template_directory') ?>/img/beansHead.jpg" alt="">
+ -->     </div> 
+ </div>
               <!-- nav end -->
 
-              <div class="banner">
-                <img class="heroImage" src="<?php bloginfo('template_directory') ?>/img/beansHead.jpg" alt="">
               
-              </div>
 
-              <div class="overlay">
-                <h1>Johar & Co.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <button>See Menu</button>
-              </div>
+              
 
 
 
