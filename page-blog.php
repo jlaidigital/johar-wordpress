@@ -10,55 +10,32 @@
 
     <div class="content">
 
-<!--     1st Div -->    
-    <div class="quarter">
-      <h3 class="beansTitle">Malapascua</h3>
-      <img src="" alt="">
-      <p>Lorem ipsum dolor sit amet.</p>
-      <button class="beansButton">See Menu</button>
-    </div>
-<!--     2nd Div -->    
-    <div class="quarter">
-      <h3 class="beansTitle">Malapascua</h3>
-      <img src="" alt="">
-      <p>Lorem ipsum dolor sit amet.</p>
-      <button class="beansButton">See Menu</button>
-    </div>
-<!--     3rd Div -->    
-    <div class="quarter">
-      <h3 class="beansTitle">Malapascua</h3>
-      <img src="" alt="">
-      <p>Lorem ipsum dolor sit amet.</p>
-      <button class="beansButton">See Menu</button>
-    </div>
-<!--     4th Div -->    
-    <div class="quarter">
-      <h3 class="beansTitle">Malapascua</h3>
-      <img src="" alt="">
-      <p>Lorem ipsum dolor sit amet.</p>
-      <button class="beansButton">See Menu</button>
-    </div>
+    <?php if(have_posts()) while(have_posts()) : the_post(); ?>
+
+   <article>
+        <header class="major">
+          <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+        </header>
+      
+        <h2><?php single_post_title( 'Current post: ' ); ?></h2>
+
+
+
+        <span class="image image-full"><?php the_post_thumbnail('full'); ?></span>
+
+        <?php the_excerpt(); ?>
+
+      </article>
+    <?php endwhile; ?>
+
 
     </div> <!--/.content -->
   
 <!--  middle giant pictures-->    
-  <div class="twins">
-      <div class="leftTwin">
-        <img src="<?php bloginfo('template_directory') ?>/img/coffee_by_bed.jpg" alt="">
-      </div>
-<!-- right twin start-->      
-    <div class="rightTwin">
-        <img src="<?php bloginfo('template_directory') ?>/img/Unsplash-Coffee-Cup.jpg" alt="">
-      </div>
-    </div>
 
 <!--    Special menu -->
-    <div class="specialMenu">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, dolorem!</p>
-    </div>
+   
 
-
-        <?php get_template_part( 'loop', 'index' ); ?>
 
     <?php get_sidebar(); ?>
 

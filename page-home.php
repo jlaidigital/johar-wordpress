@@ -1,8 +1,4 @@
-
-
-
-
-<?php //index.php is the last resort template, if no other templates match ?>
+<?php //pagehome.php ?>
 <?php get_header(); ?>
 
 <div class="main">
@@ -58,6 +54,7 @@
     </div>
 
 
+      
 
 
     <?php //get_sidebar(); ?>
@@ -66,13 +63,3 @@
 </div> <!-- /.main -->
 
 <?php get_footer(); ?>
-
-
-
-
-
-
-<!-- Delete here -->
-
-     
-   

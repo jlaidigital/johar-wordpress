@@ -53,6 +53,9 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, dolorem!</p>
 		</div>
 
+		    <?php get_template_part( 'loop', 'index' ); ?>
+
+		<?php get_sidebar(); ?>
 
     	
 
