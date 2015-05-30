@@ -2,7 +2,7 @@
 <div class="wrapper clearfix">
 <div class="main">
   <div class="container">
-  <p>Hi! I'm editing Single.php</p>
+  <p>Hi! I am CHANGING single.php</p>
 
     <div class="content">
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>

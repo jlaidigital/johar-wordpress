@@ -5,12 +5,11 @@
 				<h4>Hours</h4>
 				<p>Mon - Fri  7 - 7</p>
 				<p>Sat - Sun  9 - 5</p>
-				<p class=address><i class="fa fa-map-marker"></i>  <p> 3900 Brooklyn Ave. Toronto ON M4C 6G9</p>
 				<p>Tel: (416) 765 4321</p>
 			</section>
 
 			<section class="links">
-				<h4>QUICK LINKS</h4>
+				<h4>Follow Johar & Co</h4>
 				<div class="containerLinks clearfix">
 					<ul class="left">
 						<li><i class="fa fa-facebook-square"></i><!-- Facebook --></li>
@@ -21,14 +20,16 @@
 				</div>
 			</section>
 			<section class="map">
-				<h6>WHERE</h6>
-				<img src="assets/map.jpg" alt="Map">
+				<h4>Location</h4>
+				<p> 3900 Brooklyn Ave.</p>
+				<p>Toronto ON M4C 6G9</p>
 			</section>
 		</div>
-	</section>		
+			
 			<div class="footerBottom">
 				<p>&copy; Copyright Johar & Co. <?php echo date('Y'); ?></p>
 			</div>
+	</section>
 
 </footer>
 
