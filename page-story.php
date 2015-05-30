@@ -27,6 +27,9 @@
 
       <?php endwhile; // end the loop?>
 
+  <//?php get_template_part( 'loop', 'index' ); ?>
+
+    <//?php get_sidebar(); ?>
     
 
   </div> <!-- /.container -->
