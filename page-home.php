@@ -5,7 +5,7 @@
 
 <div class="brownSection" style="background-image: url('<?php the_field('hero_image') ?>');">
         <div class="companyInfo">
-            <h2><?php the_field('hero_overlay') ?></h2>
+            <h2><//?php the_field('hero_overlay') ?></h2>
             <?php //bloginfo('template_directory') ?>
     </div> 
  </div>
@@ -16,7 +16,7 @@
 
  <!--     1st Div -->
     <div class="quarter">
-      <img src="<?php bloginfo('template_directory'); ?>/img/salad.jpg" alt="">
+      <img src="<?php the_field('index_image') ?>">
       <h3 class="beansTitle">Malapascua</h3>
       <p>Lorem ipsum dolor sit amet.</p>
       <button class="beansButton">See Menu</button>
@@ -24,21 +24,21 @@
   
  <!--     2nd Div -->   
     <div class="quarter">
-      <img src="<?php bloginfo('template_directory'); ?>/img/salad.jpg" alt="">
+      <img src="<?php the_field('index_mageOne') ?>">
       <h3 class="beansTitle">Malapascua</h3>
       <p>Lorem ipsum dolor sit amet.</p>
       <button class="beansButton">See Menu</button>
     </div>
  <!--     3rd Div -->   
     <div class="quarter">
-      <img src="<?php bloginfo('template_directory'); ?>/img/salad.jpg" alt="">
+      <img src="<?php the_field('index_imagetwo') ?>">
       <h3 class="beansTitle">Malapascua</h3>
       <p>Lorem ipsum dolor sit amet.</p>
       <button class="beansButton">See Menu</button>
     </div>
      <!-- 4th Div  -->   
     <div class="quarter">
-      <img src="<?php bloginfo('template_directory'); ?>/img/salad.jpg" alt="">
+      <img src="<?php the_field('index_imageThree') ?>">
       <h3 class="beansTitle">Malapascua</h3>
       <p>Lorem ipsum dolor sit amet.</p>
       <button class="beansButton">See Menu</button>
