@@ -2,6 +2,14 @@
 <?php get_header(); ?>
 
 <div class="main">
+
+<div class="brownSection" style="background-image: url('<?php the_field('hero_image') ?>');">
+        <div class="companyInfo">
+            <h2><?php the_field('hero_overlay') ?></h2>
+<!--     <img class="heroImage" src="<?php bloginfo('template_directory') ?>/img/beansHead.jpg" alt="">
+ -->     </div> 
+ </div>
+
   <div class="container">
 
     <div class="content">

@@ -60,12 +60,7 @@
         </div>
     </div>
   </div>
-  <div class="brownSection">
-        <div class="companyInfo">
-            <h2>Company Info</h2>
-<!--     <img class="heroImage" src="<?php bloginfo('template_directory') ?>/img/beansHead.jpg" alt="">
- -->     </div> 
- </div>
+  
               <!-- nav end -->
 
               
