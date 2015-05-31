@@ -1,6 +1,24 @@
+body {
+	background: white;
+}
+
+.companyInfo h2 {
+	position: absolute;
+	left: 30px;
+	width: 300px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.1);
+	color: black;
+	font-family: $navFont;
+	left: 481px;
+	top: 496px;
+	padding: 13px;
+}
 .quarter {
 	width:20%;
-	background-color: black;
+	background-color: white;
+	border: 1px solid black;
 	margin: 2.5%;
 	float: left;
 	text-align: center;
@@ -26,7 +44,6 @@
 }
 
 .specialMenu {
-	background-color: lightGrey;
 	width: 100%;
 	text-align: center;
 	margin-top: 2%;
