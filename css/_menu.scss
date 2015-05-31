@@ -1,9 +1,10 @@
 .leftlist, .rightlist {
-	background-color: lightGrey;
+	background-color: #F3F2EE;
 	float:left;
 	width: 47.5%;
 	padding:5%;
 	margin-bottom: 5%;
+	border: 1px darkGrey solid;
 }
 .rightlist {
 	margin-left:5%;
@@ -11,6 +12,8 @@
 
 .pageTitle {
 	text-align: center;
+	margin: 20px;
+	padding: 2%;
 }
 
 .pageTitle h2 {
@@ -19,9 +22,16 @@
 
 .pageTitle hr {
 	border: 1px solid $primaryLink;
-	width: 2rem;
+	width: 4rem;
 	} 
 
+.post {
+	 margin-bottom: 30px;
+}
 	// $brandColour: #604348;
 	// $primaryLink: #e7acae;
 
+// .menuBanner {
+// 	background-color: red;
+// 	width: 100%;
+// }
