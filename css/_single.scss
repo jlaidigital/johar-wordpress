@@ -1,0 +1,32 @@
+.content .singleWrapper {
+	width: 100%;
+	display:block;
+	float:left;
+	font-family: "Courier New", "Courier", "monospace";
+
+}
+
+.singleWrapper h1 {
+	 font-size: 2rem;
+}
+
+
+.post {
+	text-align: center;
+	width: 100%;
+}
+
+
+.gallery {
+	padding: 10px;
+	display: block;
+	float:left;
+	text-align: left;
+}
+
+
+.gallery-item {
+	float:left;
+	display:inline-block;
+}
+
