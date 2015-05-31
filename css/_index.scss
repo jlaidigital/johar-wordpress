@@ -3,14 +3,18 @@ body {
 }
 
 .companyInfo h2 {
-	position: fixed;
-	width: 90px;
-	border-radius: 5px;
+	// position: fixed;
+	// width: 90px;
+	// border-radius: 5px;
 	color: black;
 	font-family: $navFont;
-	padding: 13px;
-	left: 430px;
-    top: 208px;
+	// padding: 13px;
+	// left: 430px;
+ //    top: 208px;
+      font-family: "Courier New", "Courier", "monospace";
+      padding: 13px;
+      /* width: 80%; */
+      text-align: center;
 }
 .quarter {
 	width:20%;
