@@ -79,7 +79,7 @@
     float: left;
     padding: 14px;
     font-size: 20px;
-    color: white;
+    // color: white;
 
     a:hover, .fa:hover {
       color:$primaryLink;
@@ -232,28 +232,28 @@ ul i:hover{
 
     #copyright a
     {
-      color: white;
+      color: black;
     }
 
 .footer {
-      background-color: $brandColour;
-      color:white;
+      // background-color: $brandColour;
+      color:black;
 
 }
 
 .footer h4 {
-  color:white;
+  color:black;
   
   a {
-    color:white;
+    color:black;
   }
 }
 
 .footer p {
-  color:white;
+  color:black;
 }
 ul.left li a {
-  color:white;
+  color:black;
   font-size:1rem;
 }
 
