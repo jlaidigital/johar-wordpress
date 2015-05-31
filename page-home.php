@@ -51,13 +51,13 @@
       <div class="twins">
           <div class="leftTwin">
           <h3>Brewing</h3>
-          <h5><?php the_field('text'); ?></h5>
+          <p><?php the_field('text'); ?></p>
             <!-- <img src="</?php bloginfo('template_directory') ?>/img/oatmeal.jpg" alt=""> -->
           </div>
     <!-- right twin start-->      
         <div class="rightTwin">
         <h3>Roasting</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat molestias aut, voluptas ipsum et libero sed atque temporibus dolore, assumenda illum velit quae quia nihil dolor quos laboriosam illo iure.</p>
+        <p><?php the_field('text'); ?></p>
             <!-- <img src="</?php bloginfo('template_directory') ?>/img/tomato-bagel. --><!-- jpg" alt=""> -->
           </div>
         </div>
