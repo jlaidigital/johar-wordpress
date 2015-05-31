@@ -27,9 +27,8 @@
 			<button class="beansButton">See Menu</button>
 		</div>
 <!--     2nd Div -->		
-		<div class="quarter">
+		<div class="quarter" style"background-image: url('<?php the_field('index_imageOne') ?>');">
 			<h3 class="beansTitle"></h3>
-			<img src="" alt="">
 			<p>Lorem ipsum dolor sit amet.</p>
 			<button class="beansButton">See Menu</button>
 		</div>
