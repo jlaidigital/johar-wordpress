@@ -1,4 +1,9 @@
+<?php 
 
+/* Template Name:page-blog.php */
+
+
+ ?>
 
 
 
@@ -10,7 +15,17 @@
 
     <div class="content">
 
+
+
+    <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; query_posts(array(
+      'posts_per_page' => 5, // custom post type
+             'paged'=>$paged,
+            ));
+    ?>  
+
     <?php if(have_posts()) while(have_posts()) : the_post(); ?>
+
+
 
    <article>
         <header class="major">
@@ -37,7 +52,7 @@
    
 
 
-    <?php get_sidebar(); ?>
+    
 
 
     <?php //get_sidebar(); ?>
