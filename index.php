@@ -27,19 +27,20 @@
 			<button class="beansButton">See Menu</button>
 		</div>
 <!--     2nd Div -->		
-		<div class="quarter" style"background-image: url('<?php the_field('index_imageOne') ?>');">
+		<img class="quarterImage" src="<?php the_field('index_mageOne') ?>">
+		<div class="quarter" style="background-image: url('<?php the_field('index_mageOne') ?>');">
 			<h3 class="beansTitle"></h3>
 			<p>Lorem ipsum dolor sit amet.</p>
 			<button class="beansButton">See Menu</button>
 		</div>
 <!--     3rd Div -->		
 		<div class="quarter">
+			<img src="<?php bloginfo('template_directory') ?>/img/salad.jpg" alt="">
 			<h3 class="beansTitle">Malapascua</h3>
-			<img src="" alt="">
 			<p>Lorem ipsum dolor sit amet.</p>
 			<button class="beansButton">See Menu</button>
 		</div>
-<!--     4th Div -->		
+    4th Div		
 		<div class="quarter">
 			<h3 class="beansTitle">Malapascua</h3>
 			<img src="" alt="">
@@ -52,11 +53,11 @@
 <!-- 	middle giant pictures-->    
 	<div class="twins">
     	<div class="leftTwin">
-     		<img src="<?php bloginfo('template_directory') ?>/img/coffee_by_bed.jpg" alt="">
+     		<img src="<?php bloginfo('template_directory') ?>img/oatmeal.jpg" alt="">
     	</div>
 <!-- right twin start-->    	
  		<div class="rightTwin">
-     		<img src="<?php bloginfo('template_directory') ?>/img/Unsplash-Coffee-Cup.jpg" alt="">
+     		<img src="<?php bloginfo('template_directory') ?>/img/tomato-bagel.jpg" alt="">
     	</div>
     </div>
 
