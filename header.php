@@ -35,7 +35,7 @@
 <!-- </header> -->
 
 <div class="wrapper">
-  <div class="container">
+  <div class="container clearfix">
      <!-- Nav -->
       <div class="navFull clearfix">
        
