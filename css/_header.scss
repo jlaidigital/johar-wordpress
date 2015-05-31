@@ -20,7 +20,7 @@
     }
 
       ul.menu li a {
-        color: white;
+        color: black;
         text-decoration: none;
         text-transform: uppercase;
         font-family: $navFont;
@@ -50,7 +50,7 @@
  	align-content: flex-end;
  	align-items: center;
  	margin: 0 auto;
- 	background-color: $brandColour;
+ 	// background-color: $brandColour;
  	
 
 }
@@ -77,7 +77,7 @@
 }
 
 .navLeft h1 a {
-	color:white;
+	color:black;
 	padding-top: 7px;
   font-family: $navFont;
   font-size: 18px;
