@@ -21,6 +21,7 @@ body {
 	border: 1px solid black;
 	margin: 2.5%;
 	float: left;
+	font-family: $navFont;
 	text-align: center;
 	padding:2%;
 	display: block;
@@ -28,10 +29,13 @@ body {
 }
 
 .leftTwin, .rightTwin {
+	font-family: $navFont;
 	width:50%;
 	background-color: white;
 	display: block;
 	float:left;
+	color: black;
+	padding: 20px;
 }
 
 .rightTwin {
@@ -51,6 +55,7 @@ body {
 	margin-top: 2%;
 	display:block;
 	float:left;
+	font-family: $navFont;
 }
 
 .brownSection {
