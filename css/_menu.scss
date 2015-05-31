@@ -12,6 +12,16 @@
 .pageTitle {
 	text-align: center;
 }
+
 .pageTitle h2 {
-	border-bottom: 1px solid red;
+	margin-bottom: 20px;
+}
+
+.pageTitle hr {
+	border: 1px solid $primaryLink;
+	width: 2rem;
 	} 
+
+	// $brandColour: #604348;
+	// $primaryLink: #e7acae;
+
