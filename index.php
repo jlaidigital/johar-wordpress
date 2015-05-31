@@ -5,8 +5,8 @@
 
 <div class="brownSection" style="background-image: url('<?php the_field('hero_image') ?>');">
         <div class="companyInfo">
-            <h2><?php the_field('hero_overlay') ?></h2>
-<!--     <img class="heroImage" src="<?php bloginfo('template_directory') ?>/img/beansHead.jpg" alt="">
+            <h2><?php the_field('hero_overlay'); ?></h2>
+<!--     <img class="heroImage" src="</?php bloginfo('template_directory') ?>/img/beansHead.jpg" alt="">
  -->     </div> 
  </div>
 
@@ -35,7 +35,7 @@
 		</div>
 <!--     3rd Div -->		
 		<div class="quarter">
-			<img src="<?php bloginfo('template_directory') ?>/img/salad.jpg" alt="">
+			<img src="<?php bloginfo('template_directory'); ?>/img/salad.jpg" alt="">
 			<h3 class="beansTitle">Malapascua</h3>
 			<p>Lorem ipsum dolor sit amet.</p>
 			<button class="beansButton">See Menu</button>
@@ -53,11 +53,15 @@
 <!-- 	middle giant pictures-->    
 	<div class="twins">
     	<div class="leftTwin">
-     		<img src="<?php bloginfo('template_directory') ?>img/oatmeal.jpg" alt="">
+    	<h3>Brewing</h3>
+    	<h5><?php the_field('text'); ?></h5>
+     		<!-- <img src="</?php bloginfo('template_directory') ?>/img/oatmeal.jpg" alt=""> -->
     	</div>
 <!-- right twin start-->    	
  		<div class="rightTwin">
-     		<img src="<?php bloginfo('template_directory') ?>/img/tomato-bagel.jpg" alt="">
+ 		<h3>Roasting</h3>
+ 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat molestias aut, voluptas ipsum et libero sed atque temporibus dolore, assumenda illum velit quae quia nihil dolor quos laboriosam illo iure.</p>
+     		<!-- <img src="</?php bloginfo('template_directory') ?>/img/tomato-bagel. --><!-- jpg" alt=""> -->
     	</div>
     </div>
 
