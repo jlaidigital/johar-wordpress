@@ -1,3 +1,10 @@
+<?php 
+
+/* Template Name:beans-menu.php */
+
+ ?>
+
+
 <?php get_header();  ?>
 
 <div class="main">

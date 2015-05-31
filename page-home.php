@@ -1,7 +1,15 @@
-<?php //pagehome.php ?>
+<?php //index.php is the last resort template, if no other templates match ?>
 <?php get_header(); ?>
 
 <div class="main">
+
+<div class="brownSection" style="background-image: url('<?php the_field('hero_image') ?>');">
+        <div class="companyInfo">
+            <h2><?php the_field('hero_overlay') ?></h2>
+            <?php //bloginfo('template_directory') ?>
+    </div> 
+ </div>
+
   <div class="container">
 
     <div class="content">
@@ -54,11 +62,11 @@
     </div>
 
 
+
       
 
 
-    <?php //get_sidebar(); ?>
-    <?php //get_template_part( 'loop', 'index' ); ?>
+   
   </div> <!-- /.container -->
 </div> <!-- /.main -->
 
