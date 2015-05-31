@@ -16,7 +16,6 @@ body {
 	padding: 13px;
 }
 .quarter {
-	background-image: url("img/beans.jpg");
 	width:20%;
 	background-color: white;
 	border: 1px solid black;
@@ -30,13 +29,13 @@ body {
 
 .leftTwin, .rightTwin {
 	width:50%;
-	background-color: green;
+	background-color: white;
 	display: block;
 	float:left;
 }
 
 .rightTwin {
-	background-color:lightGreen;
+	background-color:white;
 }
 
 .beansButton {
