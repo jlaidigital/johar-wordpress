@@ -14,10 +14,15 @@
 
     <div class="content">
 
-<!--     1st Div -->		
-		<div class="quarter">
-			<h3 class="beansTitle">Malapascua</h3>
-			<img src="" alt="">
+<!--     1st Div -->
+		<div class="quarter" style="background-image: url('<?php the_field('index_image') ?>');">
+        	<div class="beansTitle">
+            	<h3><?php the_field('index_image') ?></h3>
+<!--     <img class="indexImage" src="<?php bloginfo('template_directory') ?>/img/beansHead.jpg" alt="">
+ -->     	</div> 
+ 			
+		
+			<!-- <h3 class="beansTitle">Malapascua</h3> -->
 			<p>Lorem ipsum dolor sit amet.</p>
 			<button class="beansButton">See Menu</button>
 		</div>
