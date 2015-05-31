@@ -3,22 +3,19 @@ body {
 }
 
 .companyInfo h2 {
-	position: absolute;
-	left: 30px;
-	width: 300px;
-	height: 50px;
+	position: fixed;
+	width: 90px;
 	border-radius: 5px;
-	background-color: rgba(0, 0, 0, 0.1);
 	color: black;
 	font-family: $navFont;
-	left: 481px;
-	top: 496px;
 	padding: 13px;
+	left: 430px;
+    top: 208px;
 }
 .quarter {
 	width:20%;
 	background-color: white;
-	border: 1px solid black;
+	border: 1px solid lightgrey;
 	margin: 2.5%;
 	float: left;
 	font-family: $navFont;
@@ -27,6 +24,7 @@ body {
 	display: block;
 
 }
+
 
 .leftTwin, .rightTwin {
 	font-family: $navFont;
