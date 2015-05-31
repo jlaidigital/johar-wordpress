@@ -44,10 +44,10 @@
          <?php // Start the loop ?>
 
    <!--     This Loop its pulling posts under the category "menuRight" --> 
-   <!--    'category_name' => 'menuRight', 'orderby' => 'title', 'order' => 'DESC'  < taking from the order>
+   <!--    'category_name' => 'menuRight', 'orderby' => 'title', 'order' => 'DESC'  < taking from the order> -->
          <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; query_posts(array(
-      'posts_per_page' => 5, // custom post type
-             'paged'=>$paged, 'category_name' => 'menuRight', 'orderby' => 'title', 'order' => 'DESC' 
+      'posts_per_page' => 4, // custom post type
+             'paged'=>$paged, 'category_name' => 'menuRight','orderby' => 'title', 'order' => 'DESC' 
             ));
     ?>  
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
