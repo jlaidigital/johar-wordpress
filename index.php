@@ -17,8 +17,8 @@
 <!--     1st Div -->
 		<div class="quarter" style="background-image: url('<?php the_field('index_image') ?>');">
         	<div class="beansTitle">
-            	<h3><?php the_field('index_image') ?></h3>
-<!--     <img class="indexImage" src="<?php bloginfo('template_directory') ?>/img/beansHead.jpg" alt="">
+            	<h3>Malapascua</h3>
+<!--     <img class="indexImage" src="/img/beansHead.jpg" alt="">
  -->     	</div> 
  			
 		
@@ -28,7 +28,7 @@
 		</div>
 <!--     2nd Div -->		
 		<div class="quarter">
-			<h3 class="beansTitle">Malapascua</h3>
+			<h3 class="beansTitle"></h3>
 			<img src="" alt="">
 			<p>Lorem ipsum dolor sit amet.</p>
 			<button class="beansButton">See Menu</button>
@@ -68,7 +68,7 @@
 
 		    <?php get_template_part( 'loop', 'index' ); ?>
 
-		<?php get_sidebar(); ?>
+		<?//php get_sidebar(); ?>
 
     	
 
