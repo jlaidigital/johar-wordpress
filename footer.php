@@ -27,7 +27,7 @@
 		</div>
 			
 			<div class="footerBottom">
-				<p>&copy; Copyright Johar & Co. <?php echo date('Y'); ?></p>
+				<p>&copy; Copyright Johar & Co. <?php echo date('Y'); ?> | Site Design Inspired by Qode Interactive </p>
 			</div>
 	</section>
 
